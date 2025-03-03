@@ -11,7 +11,6 @@ A React Native mobile application that fetches and displays news articles from a
 - Share articles with others
 - Pagination for loading more articles
 
-## demo Video
 
 ## Prerequisites
 
@@ -30,9 +29,9 @@ cd news-app
 
 2. Install dependencies:
 ```
-npm install
+npm install @react-navigation/bottom-tabs @react-navigation/native @react-navigation/stack @reduxjs/toolkit expo-status-bar react-native-gesture-handler react-native-safe-area-context react-native-screens react-redux
 # or
-yarn install
+yarn install @react-navigation/bottom-tabs @react-navigation/native @react-navigation/stack @reduxjs/toolkit expo-status-bar react-native-gesture-handler react-native-safe-area-context react-native-screens react-redux
 ```
 
 3. Create an account on [NewsAPI](https://newsapi.org/) and get your API key
@@ -47,6 +46,11 @@ export const API_KEY = 'your_api_key_here';
 npm start
 # or
 yarn start
+```
+for open the app in android 
+```
+npm run android
+
 ```
 
 6. Follow the instructions from the Expo CLI to run the app on your device or emulator
